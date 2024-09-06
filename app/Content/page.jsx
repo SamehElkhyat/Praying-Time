@@ -12,7 +12,7 @@ import moment from 'moment'
 import { motion } from "framer-motion";
 import axios from 'axios'
 
-export default function page() {
+export default function Page() {
 
 const [Timing, setTiming] = useState({})
 const [timingCity, setTimingcity] = useState("cairo")
